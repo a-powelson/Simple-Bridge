@@ -24,7 +24,7 @@ public class BridgeOperator {
         ArrayList<APPair> fdb = new ArrayList<>();
 
         try {
-            File fdbEntries = new File("src/BridgeFDB.txt");
+            File fdbEntries = new File("src/txt/BridgeFDB.txt");
             Scanner input = new Scanner(fdbEntries);
 
             while(input.hasNext()) {
@@ -50,7 +50,7 @@ public class BridgeOperator {
         ArrayList<Frame> framesList = new ArrayList<>();
 
         try {
-            File framesIn = new File("src/RandomFrames.txt");
+            File framesIn = new File("src/txt/RandomFrames.txt");
             Scanner input = new Scanner(framesIn);
 
             while(input.hasNextLine()) {
